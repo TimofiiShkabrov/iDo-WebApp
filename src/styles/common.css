@@ -1,0 +1,14 @@
+:root {
+    --textColor: #000;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: var(--textColor);
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
