@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+#iDo - Turn your ideas into action!
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to iDo - your trusted partner in everyday organisation and goal achievement! iDo is a modern task management app that will help you plan your day with ease, be more productive and achieve your goals with confidence.
 
 ## Available Scripts
 
