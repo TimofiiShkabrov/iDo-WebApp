@@ -1,6 +1,5 @@
 import './home.css'
-import homeImg1 from './../../img/1.png'
-import homeImg2 from './../../img/2.png'
+import homeImg from './../../img/ido.png'
 
 const Home = () => {
     return ( 
@@ -23,11 +22,8 @@ const Home = () => {
                     </div>
                     </div>
                     </div>
-                    <div className="home_img1">
-                    <img src={homeImg1} alt="Phone" />
-                    </div>
-                    <div className="home_img2">
-                    <img src={homeImg2} alt="Phone" />
+                    <div className="home_img">
+                    <img src={homeImg} alt="Phone" />
                     </div>
                 </div>
             </div>

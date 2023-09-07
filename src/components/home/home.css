@@ -33,6 +33,8 @@
 }
 
 .home_btn {
+    padding-top: 10px;
+    padding-left: 20px;
     color: #FFF;
     text-align: center;
     font-size: 24px;
@@ -41,12 +43,6 @@
     line-height: normal;
 }
 
-.home_img1 {
-    width: 342.708px;
-    height: 600px;
-}
-
-.home_img2 {
-    width: 313.931px;
-    height: 550px;
+.home_img {
+    display: flex;
 }
