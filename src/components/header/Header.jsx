@@ -1,6 +1,8 @@
-import logo from './../../img/logo/logo.svg'
-import account from './../../img/account.svg'
-import './header.css'
+import React from 'react';
+import { Link } from 'react-router-dom';
+import logo from './../../img/logo/logo.svg';
+// import account from './../../img/account.svg';
+import './header.css';
 
 function Header () {
     return (
@@ -13,10 +15,10 @@ function Header () {
                     </div>
                     <nav className="header_nav">
                         <ul>
-                        <li><a href="#!">FAQ</a></li>
-                        <li><a href="#!">Documents</a></li>
-                        <li><a href="#!">Contacts</a></li>
-                        <li><a href="#!"><img src={account} alt="Account" /></a></li>
+                        <li><Link to="/faq">FAQ</Link></li>
+                        <li><Link to="/documents">Documents</Link></li>
+                        <li><Link to="/contacts">Contacts</Link></li>
+                        {/* <li><a href="#!"><img src={account} alt="Account" /></a></li> */}
                         </ul>
                     </nav>
                 </div>

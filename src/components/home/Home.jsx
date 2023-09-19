@@ -1,5 +1,5 @@
-import './home.css'
-import homeImg from './../../img/ido.png'
+import './home.css';
+import homeImg from './../../img/ido.png';
 
 const Home = () => {
     return ( 
