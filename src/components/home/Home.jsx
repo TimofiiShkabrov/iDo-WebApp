@@ -17,15 +17,15 @@ const Home = () => {
                         that will help you plan your day with ease, be more productive 
                         and achieve your goals with confidence.
                         </div>
+                        <div className="home_btn-wrapper">
+                        <a href="#!" className="home_btn-text">
+                        SIGN IN
+                        </a>
+                    </div>
                     </div>
                     <div className="home_img">
                         <img src={homeImg} alt="Phone" />
                     </div>
-                    </div>
-                    <div className="home_btn-wrapper">
-                        <a href="#!" className="home_btn-text">
-                        SIGN IN
-                        </a>
                     </div>
                 </div>
             </div>

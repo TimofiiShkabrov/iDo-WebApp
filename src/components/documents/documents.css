@@ -1,5 +1,7 @@
 .tabs_container {
-    padding: 30px;
+    padding-top: 50px;
+    padding-left: 150px;
+    padding-right: 150px;
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -51,4 +53,18 @@
 
 .content, button {
     font-size: 15px;
+}
+
+@media (max-width: 768px) {
+
+    .tabs_container {
+        width: 100%;
+        padding-top: 30px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .content {
+        padding: 50px;
+    }
 }

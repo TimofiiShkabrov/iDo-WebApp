@@ -30,6 +30,17 @@
     line-height: normal;
 }
 
+.header_nav {
+    display: flex;
+    align-items: center;
+    column-gap: 24px;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
 .header_nav ul {
     align-items: center;
     display: flex;
@@ -43,4 +54,46 @@
 
 .header_nav a {
     color: var(--text-color)
+}
+
+/* Добавьте медиа-запрос для отображения кнопки бургер-меню на мобильных устройствах */
+@media (max-width: 768px) {
+    .header_nav {
+        display: none; /* Скрыть меню на мобильных устройствах по умолчанию */
+        flex-direction: column;
+        position: absolute;
+        top: 80px;
+        left: 0;
+        background-color: #FFF;
+        width: 100%;
+        padding: 20px;
+        border-radius: 20px;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    }
+
+    .menu-icon-bar {
+        width: 35px;
+        height: 2px;
+        background-color: #000;
+        margin: 4px 0;
+    }
+
+    .cross {
+        transform: rotate(45deg);
+        margin: 0;
+    }
+    .-cross {
+        transform: rotate(-45deg);
+        margin: 0;
+    }
+
+    .header_nav.open {
+        display: flex; /* Отображать меню, когда isMenuOpen равно true */
+    }
+
+    .header_nav ul {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
 }
