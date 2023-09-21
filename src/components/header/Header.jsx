@@ -16,7 +16,7 @@ function Header() {
 
   return (
     <header className="header">
-      <div className="container">
+      <div className="header_container">
         <div className="header_row">
           <Link to="/" className="header_logo">
             <img src={logo} alt="iDo" />
@@ -38,7 +38,7 @@ function Header() {
             </div>
           <nav className={`header_nav ${isMenuOpen ? 'open' : ''}`}>
             <ul>
-              <li><Link to="/faq" onClick={closeMenu}>FAQ</Link></li>
+              {/* <li><Link to="/faq" onClick={closeMenu}>FAQ</Link></li> */}
               <li><Link to="/documents" onClick={closeMenu}>Documents</Link></li>
               <li><Link to="/contacts" onClick={closeMenu}>Contacts</Link></li>
             </ul>

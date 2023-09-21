@@ -30,7 +30,7 @@
     font-size: 18px;
 }
 
-.home_btn-wrapper {
+/* .home_btn-wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -51,7 +51,7 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-}
+} */
 
 .home_img{
     display: flex;

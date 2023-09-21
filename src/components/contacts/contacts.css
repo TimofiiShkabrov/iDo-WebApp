@@ -1,0 +1,37 @@
+.contacts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .contacts_conteiner {
+} */
+
+.contacts_content {
+    display: flex;
+    column-gap: 50px;
+    align-items: center;
+    background: #FFF;
+    padding: 50px;
+    border-radius: 20px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.contacts_text {
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.header_title {
+    font-size: 20px;
+    padding-bottom: 50px;
+}
+
+/* .header_description {
+} */
+
+.header_description p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
